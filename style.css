@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  color: rgb(228, 228, 228);
+  background-color: #203354;
+  margin: 0;
+  padding: 0;
+  min-height: 80vh;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  background-color: #203354;
+  height: 100hv;
+  align-content: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+h1 {
+  font-family: Helvetica, Open Sans, sans-serif;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+}
+
+input[type="text"] {
+  font-size: 1.2em;
+  padding: 10px;
+  color: beige;
+}
+
+#submit-btn,
+.reshuffle-btn {
+  font-size: 1.2em;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0.5em;
+  background-color: #045F82;
+  color: #fff;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#submit-btn:hover,
+.reshuffle-btn:hover
+ {
+  background-color: #02425F;
+  cursor: pointer;
+}
+
+#result {
+  font-weight: bold;
+}
+
+#current-meaning{
+  font-weight: bold;
+}
+
+#submit-btn{
+  display: none;
+}
+
+.reshuffle-btn{
+  padding-top: .5em;
+  padding-bottom: .5em;
+  position: relative;
+  width: 150px;
+  margin-top: 20px;
+  margin-left: 0;
+  margin-right: auto;
+  align-items: center;
+}
+
+#user-input{
+  color:solid aliceblue;
+  padding: 20px;
+  background-color: #203354;
+  border: solid aliceblue 1px;
+ border-radius: 60px;
+  
+}
+.timer{
+  color: yellow;
+}
+.your-answer{
+  font-family: 'Times New Roman', Times, serif
+}
